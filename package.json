@@ -1,0 +1,23 @@
+{
+  "name": "demo-casino",
+  "version": "1.0.0",
+  "description": "Assignment for Paramo Technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olguinc/demo-casino.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olguinc/demo-casino/issues"
+  },
+  "homepage": "https://github.com/olguinc/demo-casino#readme",
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  }
+}
