@@ -28,8 +28,7 @@ Cypress.Commands.add('login', (email, password) => {
   
     // enter credentials
     cy.get('#UserLogin_username').type(email)
-    cy.get('#UserLogin_password').type(`${password}`, { log: false })
-    cy.get("[type='submit']").click()
+    cy.get('#UserLogin_password').type(`${password}{enter}`, { log: false })
   })
 
   Cypress.Commands.add('closeModal', () => {
