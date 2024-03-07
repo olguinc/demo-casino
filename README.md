@@ -17,7 +17,6 @@ npm install
 - Run the following command
 ```sh
 npx cypress open
-npm install
 ```
 - Select e2e and the browser to see the Cypress UI
 - Select the spec file to run
