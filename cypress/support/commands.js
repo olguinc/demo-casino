@@ -29,15 +29,8 @@ Cypress.Commands.add('login', (email, password) => {
     // enter credentials
     cy.get('#UserLogin_username').type(email)
     cy.get('#UserLogin_password').type(`${password}{enter}`, { log: false })
+  })
 
-    //cy.get('[type="submit"]').click()
-  
-    // we should be redirected to /dashboard
-    //cy.url().should('include', '/dashboard')
-  
-    // our auth cookie should be present
-    //cy.getCookie('your-session-cookie').should('exist')
-  
-    // UI should reflect this user being logged in
-    //cy.get('h1').should('contain', email)
+  Cypress.Commands.add('closeModal', () => {
+    cy.get(".mfp-close").click();
   })
