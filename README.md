@@ -14,7 +14,7 @@ npm install
 # Running Tests
 
 ## Manually
-- Run the command
+- Run the following command
 ```sh
 npx cypress open
 npm install
